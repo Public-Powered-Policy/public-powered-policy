@@ -57,8 +57,41 @@
 </head>
 <body class="grid">
 
-{% render "header.html" %}
-
+  <header id="header" class="grid">
+    <nav class="flex no-wrap justify-between align-items-center">
+      <a class="font-size-xl font-size-lg@md font-weight-xxl uppercase line-height-flush undecorated button --simple --primary pt-0 pb-0 pb-xs@md" href="/">
+        <span class="sr-only@sm">Public Powered Policy</span>
+      </a>
+      <div class="inline-flex gap-xs shrink align-items-center">
+        <ul class="docs-nav-group unlisted inline-flex gap-xs shrink align-items-center">
+          <li class="hidden@smm"><a href="#" class="button --subtle --primary shadow-md">Contact</a></li>
+          <li><a href="#" class="button --primary shadow-md">Donate</a></li>
+        </ul>
+        <popover-menu class="themes">
+        <button popovertarget="themes-menu" aria-label="Themes" id="themes-menu-button" class="shadow-md button --fill --primary">
+          {% render "svg/theme-picker.svg" %}
+        </button>
+        <theme-picker id="themes-menu" role="menu" aria-labelledby="themes-menu-button" popover class="anchor-right">
+          <ul role="group" aria-label="Modes">
+              {% for item in picker.modes %} 
+                <li role="none">
+                  <button class="button --menu --primary" data-type="mode" data-value="{{ item }}" role="menuitem">{{ item }}</button>
+                </li>
+              {% endfor %}
+          </ul>
+      <!--    <ul role="group" aria-label="Themes">
+              {% for item in picker.themes %}
+                <li role="none">
+                  <button class="button --menu --primary" data-type="theme" data-value="{{ item }}" role="menuitem">{{ item }}</button>
+                </li>
+              {% endfor %}
+          </ul>
+      -->
+        </theme-picker>
+      </popover-menu>
+      </div>
+    </nav>
+  </header>
   <main class="grid">
     <h1 class="hero">{{ title }}</h1>
 
