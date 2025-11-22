@@ -20,6 +20,7 @@
     "check": "biome check --write ./_source"
   },
   "dependencies": {
-    "@11ty/eleventy-navigation": "^1.0.4"
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "eleventy-plugin-toc": "^1.1.5"
   }
 }

@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Your voice matters.
 description: Grease takes the friction out of building fast, adaptable, aesthetic websites.
 layout: home.html
 eleventyNavigation:

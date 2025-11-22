@@ -4,7 +4,7 @@
   </button>
   <theme-picker id="themes-menu" role="menu" aria-labelledby="themes-menu-button" popover class="anchor-right">
     <ul role="group" aria-label="Modes">
-      {% for item in modes %}
+      {% for item in theme.modes %}
         <li role="none">
           <button class="button --menu --primary" data-type="mode" data-value="{{ item }}" role="menuitem">{{ item }}</button>
         </li>

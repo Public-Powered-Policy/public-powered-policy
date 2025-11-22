@@ -8,6 +8,7 @@ import fullDate from './_source/_utilities/fullDate.js';
 import markdownify from './_source/_utilities/markdownify.js';
 import { IdAttributePlugin } from '@11ty/eleventy';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import pluginTOC from "eleventy-plugin-toc";
 
 export default async function (eleventyConfig) {
   /* --------------------------------------------------------------------------
@@ -22,6 +23,10 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter('fullDate', fullDate);
   eleventyConfig.addFilter('markdownify', markdownify);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(pluginTOC, {
+      tags: ["h2", "h3"], // which headings to include
+      wrapper: "ul"
+    });
 
   /* --------------------------------------------------------------------------
   MarkdownIt settings
