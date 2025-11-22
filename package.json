@@ -18,5 +18,8 @@
     "format": "biome format --write ./_source",
     "lint": "biome lint --write ./_source",
     "check": "biome check --write ./_source"
+  },
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^1.0.4"
   }
 }

@@ -7,6 +7,7 @@ import setVar from './_source/_utilities/setVar.js';
 import fullDate from './_source/_utilities/fullDate.js';
 import markdownify from './_source/_utilities/markdownify.js';
 import { IdAttributePlugin } from '@11ty/eleventy';
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 export default async function (eleventyConfig) {
   /* --------------------------------------------------------------------------
@@ -20,6 +21,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPairedShortcode('setVar', setVar);
   eleventyConfig.addFilter('fullDate', fullDate);
   eleventyConfig.addFilter('markdownify', markdownify);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   /* --------------------------------------------------------------------------
   MarkdownIt settings
