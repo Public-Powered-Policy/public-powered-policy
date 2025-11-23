@@ -6,9 +6,9 @@
         <span>{{ site.title }}</span>
       </a>
       <div class="inline-flex gap-xs shrink align-items-center">
-        <popover-menu popovertarget="docs-nav-group">
+        <popover-menu>
           <button popovertarget="docs-nav-group" class="button --primary shadow-md"><span style="margin-bottom: 2px;">☰</span> Menu</button>
-          <ul role="group" aria-label="main-menu" popover>
+          <ul id="on-this-page" role="group" aria-label="main-menu" popover>
             <li class="hidden@smm"><a href="#" class="button --menu --primary">About</a></li>
             <li class="hidden@smm"><a href="#" class="button --menu --primary">Contact</a></li>
           </ul>
