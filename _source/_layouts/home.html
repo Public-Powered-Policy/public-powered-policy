@@ -1,70 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-    <script>
-      document.documentElement.classList.add('js');
-      const theme = localStorage.getItem('theme') || 'default';
-      const mode = localStorage.getItem('mode') || 'system';
-      
-      if (theme !== 'default') {
-        document.documentElement.classList.add(theme);
-      }
-      
-      if (mode !== 'system') {
-        document.documentElement.classList.add(mode);
-      }
-    </script>
-
-    <title>{% if title %}{{ title | escape }} | {% endif %}{{ site.title | escape }}</title>
-    <meta name="description" content="{% if description %}{{ description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {%- if noindex -%}
-    <meta name="robots" content="noindex, nofollow">
-    {%- endif -%}
-
-    {%- if canonical -%}
-    <link rel="canonical" href="{{ canonical }}">
-    {%- else -%}
-    <link rel="canonical" href="{{ env.baseUrl }}{{ page.url }}">
-    {%- endif -%}
-
-    <link rel="alternate icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon.svg">
-    <link rel="mask-icon" href="/assets/images/icons/favicon.svg" color="#000000">
-    <link rel="apple-touch-icon" href="/assets/images/icons/favicon-196x196.png">
-    <link rel="expect" href="#header" blocking="render" />
-
-    <style>
-      {% getBundle "css" %}
-    </style>
-
-    <link rel="stylesheet" href="/assets/css/main.css" media="all">
-    {%- if stylesheet -%}
-    {%- for sheet in stylesheet -%}
-    <link rel="stylesheet" href="{{ sheet }}" media="all">
-    {%- endfor -%}
-    {%- endif -%}
-
-    <script src="/assets/js/app.js" type="module"></script>
-    {%- if javascript -%}
-    {%- for script in javascript -%}
-    <script src="{{ script }}" type="module"></script>
-    {%- endfor -%}
-    {%- endif -%}
-</head>
+{% include "head.html" %}
 <body class="grid">
-
   <header id="header" class="grid">
     <nav class="flex no-wrap justify-between align-items-center">
       <a class="font-size-xl font-size-lg@md font-weight-xxl uppercase line-height-flush undecorated button --simple --primary pt-0 pb-0 pb-xs@md" href="/">
-        <span class="sr-only@sm">Public Powered Policy</span>
+        <span>{{ site.title }}</span>
       </a>
       <div class="inline-flex gap-xs shrink align-items-center">
         <ul class="docs-nav-group unlisted inline-flex gap-xs shrink align-items-center">
-          <li class="hidden@smm"><a href="#" class="button --subtle --primary shadow-md">Contact</a></li>
+          <li class="hidden@smm"><a href="#" class="button --simple --primary">About</a></li>
+          <li class="hidden@smm"><a href="#" class="button --simple --primary">Contact</a></li>
           <li><a href="#" class="button --primary shadow-md">Donate</a></li>
         </ul>
         <popover-menu class="themes">

@@ -9,6 +9,8 @@ import markdownify from './_source/_utilities/markdownify.js';
 import { IdAttributePlugin } from '@11ty/eleventy';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import pluginTOC from "eleventy-plugin-toc";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from 'markdown-it-attrs';
 
 export default async function (eleventyConfig) {
   /* --------------------------------------------------------------------------
@@ -35,7 +37,7 @@ export default async function (eleventyConfig) {
     html: true,
     typographer: true,
   };
-  eleventyConfig.setLibrary('md', markdownIt(markdownItOptions));
+  eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs));
 
   /* --------------------------------------------------------------------------
   Files & folders
