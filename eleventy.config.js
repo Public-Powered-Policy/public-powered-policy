@@ -27,11 +27,11 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter("tocFromHtml", (html) => {
     const dom = new JSDOM(html);
     const headings = dom.window.document.querySelectorAll("h2, h3");
-    let toc = '<nav class="toc"><ul>';
+    let toc = '<nav class="toc"><ul class="unlisted font-size-sm font-weight-lg mt-sm">';
     headings.forEach(h => {
       if (h.id) {
         const tag = h.tagName.toLowerCase();
-        toc += `<li class="${tag}"><a href="#${h.id}">${h.textContent}</a></li>`;
+        toc += `<li><a class="${tag} button --simple" href="#${h.id}">${h.textContent}</a></li>`;
       }
     });
     toc += "</ul></nav>";
