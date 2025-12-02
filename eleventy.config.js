@@ -6,11 +6,11 @@ import style from './_source/_utilities/style.js';
 import setVar from './_source/_utilities/setVar.js';
 import fullDate from './_source/_utilities/fullDate.js';
 import markdownify from './_source/_utilities/markdownify.js';
-import { IdAttributePlugin } from '@11ty/eleventy';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import pluginTOC from "eleventy-plugin-toc";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from 'markdown-it-attrs';
+import markdownItTOC from 'markdown-it-toc-done-right';
+import { JSDOM } from 'jsdom';
 
 export default async function (eleventyConfig) {
   /* --------------------------------------------------------------------------
@@ -18,17 +18,25 @@ export default async function (eleventyConfig) {
   -------------------------------------------------------------------------- */
   eleventyConfig.addPlugin(esbuild);
   eleventyConfig.addPlugin(lightingcss);
-  eleventyConfig.addPlugin(IdAttributePlugin);
   eleventyConfig.addBundle('css', { transforms: [style] });
   eleventyConfig.addShortcode('image', image);
   eleventyConfig.addPairedShortcode('setVar', setVar);
   eleventyConfig.addFilter('fullDate', fullDate);
   eleventyConfig.addFilter('markdownify', markdownify);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPlugin(pluginTOC, {
-      tags: ["h2", "h3"], // which headings to include
-      wrapper: "ul"
+  eleventyConfig.addFilter("tocFromHtml", (html) => {
+    const dom = new JSDOM(html);
+    const headings = dom.window.document.querySelectorAll("h2, h3");
+    let toc = '<nav class="toc"><ul>';
+    headings.forEach(h => {
+      if (h.id) {
+        const tag = h.tagName.toLowerCase();
+        toc += `<li class="${tag}"><a href="#${h.id}">${h.textContent}</a></li>`;
+      }
     });
+    toc += "</ul></nav>";
+    return toc;
+  });
 
   /* --------------------------------------------------------------------------
   MarkdownIt settings
@@ -37,7 +45,21 @@ export default async function (eleventyConfig) {
     html: true,
     typographer: true,
   };
-  eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor).use(markdownItAttrs));
+
+const md = markdownIt(markdownItOptions)
+  .use(markdownItAnchor)
+  .use(markdownItAttrs)
+  .use(markdownItTOC, {
+    level: [2, 3],   // only include h2 and h3
+    listType: "ul",  // default is "ul", could be "ol"
+    containerClass: "toc" // optional: add a class for styling
+  });
+
+  eleventyConfig.setLibrary('md', md);
+
+  eleventyConfig.addPairedShortcode("markdown", (content) => {
+    return md.render(content);
+  });
 
   /* --------------------------------------------------------------------------
   Files & folders

@@ -9,7 +9,7 @@
         <popover-menu>
           <button popovertarget="docs-nav-group" class="button --primary shadow-md"><span style="margin-bottom: 2px;">☰</span> Menu</button>
           <ul id="on-this-page" role="group" aria-label="main-menu" popover>
-            <li class="hidden@smm"><a href="#" class="button --menu --primary">About</a></li>
+            <li class="hidden@smm"><a href="/about/" class="button --menu --primary">About</a></li>
             <li class="hidden@smm"><a href="#" class="button --menu --primary">Contact</a></li>
           </ul>
         </popover-menu>
@@ -45,22 +45,8 @@
       <nav class="sticky@md top-md mb-lg">
         <small-details>
           <details>
-            <summary class="font-size-sm font-weight-md uppercase letter-spacing-lg">What we do</summary>
-            <ul class="unlisted font-size-sm font-weight-lg mt-sm">
-              {%- assign toc = collections.all | eleventyNavigation: "index" -%}
-              {%- for item in toc -%}
-                <li>
-                  <a class="button --simple" href="#{{ item.url }}">{{ item.title }}</a>
-                  {%- if item.children -%}
-                    <ul>
-                      {%- for sub in item.children -%}
-                        <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
-                      {%- endfor -%}
-                    </ul>
-                  {%- endif -%}
-                </li>
-              {%- endfor -%}
-            </ul>
+            <summary class="font-size-sm font-weight-md uppercase letter-spacing-lg">On this page</summary>
+              {{ content | tocFromHtml }}
           </details>
         </small-details>
       </nav>
