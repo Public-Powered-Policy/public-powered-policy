@@ -1,8 +1,14 @@
 ---
-title: Keys to drafting powerful comments
+title: Your voice matters.
+description: Grease takes the friction out of building fast, adaptable, aesthetic websites.
+layout: home.html
+eleventyNavigation:
+  key: index
+  order: 1
+permalink: /
 ---
 
-### Why your comment matters
+## Why your comment matters
 
 Federal agencies must consider and respond to significant comments. A
 well-written comment can:
