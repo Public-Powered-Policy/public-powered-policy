@@ -78,5 +78,6 @@ const md = markdownIt(markdownItOptions)
     },
     templateFormats: ['html', 'md', 'liquid'],
     htmlTemplateEngine: 'liquid',
+    pathPrefix: "/public-powered-policy/", // <-- Change when moved to custom domain
   };
 }
