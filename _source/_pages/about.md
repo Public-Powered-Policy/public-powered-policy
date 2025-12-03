@@ -24,10 +24,10 @@ We want to arm you with the tools you need to ensure your voice is heard.
 
 ## Mission
 
-_To strengthen democracy by breaking down barriers to meaningful and widespread public engagement in the regulatory process by spotlighting harms, empowering the public, and reimagining the playing field. 
-Basically, we want to let you know how rules impact you, what potentially harmful rules are coming, and how you can get involved and use your voice._
+To strengthen democracy by breaking down barriers to meaningful and widespread public engagement in the regulatory process by spotlighting harms, empowering the public, and reimagining the playing field. 
+Basically, we want to let you know how rules impact you, what potentially harmful rules are coming, and how you can get involved and use your voice.
 
-_And hopefully in the long run, we can help make better rules that work for you._
+**And hopefully in the long run, we can help make better rules that work for you.**
 
 ## Experience
 
