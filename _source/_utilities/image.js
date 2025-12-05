@@ -22,14 +22,15 @@ export default async function image(
 	const format = metadata[Object.keys(metadata)[0]];
 	const data = format[format.length - 1];
 
-	return `<img
-    ${cssClass != null ? `class="${cssClass}"` : ''}
-    src="${data.url}"
-    width="${data.width}"
-    height="${data.height}"
-    alt="${alt}"
-    loading="${loadingAttr}"
-    decoding="async"
-    sizes="(max-width: 44.9em) ${sizes}"
-    srcset="${Object.values(metadata).map((imageFormat) => imageFormat.map((entry) => entry.srcset).join(', '))}">`;
+return `<img ${cssClass ? `class="${cssClass}"` : ''} 
+  src="${data.url}" 
+  width="${data.width}" 
+  height="${data.height}" 
+  alt="${alt}" 
+  loading="${loadingAttr}" 
+  decoding="async" 
+  sizes="(max-width: 44.9em) ${sizes}" 
+  srcset="${Object.values(metadata)
+  .map((imageFormat) => imageFormat.map((entry) => entry.srcset).join(', '))
+  .join(', ')}">`;
 }

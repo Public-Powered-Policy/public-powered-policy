@@ -39,6 +39,21 @@ export default async function (eleventyConfig) {
     toc += "</ul></nav>";
     return toc;
   });
+  eleventyConfig.addPairedShortcode("accordion", function(content, title, id, level = 2) {
+    const safeId = id || title.toLowerCase().replace(/\s+/g, "-");
+    const headingTag = `h${level}`;
+    return `
+      <details class="accordion">
+        <summary>
+          <${headingTag} id="${safeId}" class="accordion-item">
+            ${md.renderInline(title)}
+          </${headingTag}>
+        </summary>
+        <div class="accordion-panel">
+          ${md.render(content)}
+        </div>
+      </details>`;
+  });
 
   /* --------------------------------------------------------------------------
   MarkdownIt settings

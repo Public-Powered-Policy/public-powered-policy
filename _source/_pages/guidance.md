@@ -4,50 +4,49 @@ description: Practical guidance using styled details/summary accordions.
 layout: home.html
 permalink: /guidance/
 ---
+## How to submit your first comment
 
-<section class="accordion">
+So you know a rule that you want to comment on. Maybe you heard about it on the news, social media, or a podcast and you have something to say about how it would impact you and the world around you. Excellent. Welcome! Anyone can and should comment!
 
-<details>
-  <summary>
-    <h2 id="step-1-find-the-rule" class="accordion-item">
-      <span class="accordion-toggle">Step 1: Find the rule</span>
-    </h2>
-  </summary>
-  <div class="accordion-panel">
-{% markdown %}
-### How to find the rule
+Commenting is key. Your comments can help hold the government accountable, change federal policy, and stop the government from taking actions that can harm you. Use your voice. 
 
-- this
-- that
-- and this
-{% endmarkdown %} 
-  </div>
-</details>
+And, don’t panic! This guide clearly explains how to: 
+ 
+- Find a rule you want to comment on
+- Submit a comment on a rule 
 
-<details>
-  <summary>
-    <h2 id="step-2-rendering-images" class="accordion-item">
-      <span class="accordion-toggle">Step 2: Rendering images</span>
-    </h2>
-  </summary>
-  <div class="accordion-panel">
-    {% image "img_3610.jpg", "Alt text", "w-64" %}
-  </div>
-</details>
+It also addresses some questions you may have about submitting comments.
 
-<details>
-  <summary>
-    <h2 id="step-3-testing" class="accordion-item">
-      <span class="accordion-toggle">Step 3: Testing</span>
-    </h2>
-  </summary>
-  <div class="accordion-panel">
-    ## More content
+Just remember, commenting is important, and we’ll make it easy!
 
-    - one
-    - two
-    - three
-  </div>
-</details>
+{% accordion "Step 1: Find the rule", "step-1", 3 %}
+1. Go to [regulations.gov](https://www.regulations.gov/)
+2. Search for the rule you are looking for using key words. 
+  - You can refine your search by:
+    - agency 
+    - date of publication
+    - type of document
+    
+    **Refining your search will help make sure you have the right one.**
 
-</section>
+3. If you know the comment period is open, click on: “Only show documents open for comment”.
+
+{% image "refine-document-results.png", "Alt text" %}
+
+_You can also find and read a rule on [federalregister.gov](https://www.federalregister.gov/), but you'll need to go to [regulations.gov](https://www.regulations.gov/) to submit your comment._
+
+{% endaccordion %}
+
+{% accordion "Step 2: Rendering images", "step-2", 3 %}
+
+{% image "refine-document-results.png", "Alt text" %}
+
+{% endaccordion %}
+
+{% accordion "Step 3: Testing", "step-3", 3 %}
+### More content
+
+- one
+- two
+- three
+{% endaccordion %}
