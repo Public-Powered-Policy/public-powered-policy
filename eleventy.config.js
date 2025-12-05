@@ -11,6 +11,8 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from 'markdown-it-attrs';
 import markdownItTOC from 'markdown-it-toc-done-right';
 import { JSDOM } from 'jsdom';
+import fs from "fs";
+import { EleventyRenderPlugin } from "@11ty/eleventy";
 
 export default async function (eleventyConfig) {
   /* --------------------------------------------------------------------------
@@ -58,6 +60,11 @@ const md = markdownIt(markdownItOptions)
   eleventyConfig.setLibrary('md', md);
 
   eleventyConfig.addPairedShortcode("markdown", (content) => {
+    return md.render(content);
+  });
+
+  eleventyConfig.addShortcode("mdPartial", (path) => {
+    const content = fs.readFileSync(`_source/_includes/${path}`, "utf-8");
     return md.render(content);
   });
 
