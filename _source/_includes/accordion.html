@@ -1,0 +1,20 @@
+<section class="accordion">
+  {% for item in items %}
+    <h2 class="accordion-item" id="accordion-{{ item.title | slugify }}">
+      <button 
+        class="accordion-toggle"
+        aria-expanded="false"
+        aria-controls="acc-panel-{{ forloop.index }}"
+        id="acc-btn-{{ forloop.index }}">
+        {{ item.title }}
+      </button>
+    </h2>
+    <div 
+      id="acc-panel-{{ forloop.index }}" 
+      class="accordion-panel hidden" 
+      role="region" 
+      aria-labelledby="acc-btn-{{ forloop.index }}">
+      {% mdPartial item.partial %}
+    </div>
+  {% endfor %}
+</section>

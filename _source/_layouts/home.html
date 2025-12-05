@@ -56,7 +56,6 @@
   </header>
   <main class="grid">
     <h1 class="hero">{{ title }}</h1>
-
     <section id="docs" class="docs-layout">
       <nav class="sticky@md top-md mb-lg">
         <small-details>
@@ -66,16 +65,23 @@
           </details>
         </small-details>
       </nav>
-
       <article class="line-length-lg">
         {{ content }}
       </article>
     </section>
   </main>
-
   <footer class="grid">
     <p class="font-size-sm">&copy; Public Powered Policy</p>
   </footer>
-
+  <script>
+    document.querySelectorAll('.accordion-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', !expanded);
+        document.getElementById(btn.getAttribute('aria-controls'))
+                .classList.toggle('hidden', expanded);
+      });
+    });
+  </script>
 </body>
 </html>

@@ -2,15 +2,23 @@
 title: About
 description: Grease takes the friction out of building fast, adaptable, aesthetic websites.
 layout: home.html
-eleventyNavigation:
-  key: index
-  order: 1
+items:
+  - title: "Step 1: Find the rule"
+    partial: "partials/test-1.md"
+  - title: "Step 2: Not rendering as markdown"
+    partial: "partials/test-2.md"
+  - title: "Step 3: Testing this is infuriating"
+    partial: "partials/test-3.md"    
 permalink: /about/
 ---
 
+## Test
+
+{% include "accordion.html" items: items %}
+
 ## Origins
 
-We — Rebecca Bond, Eliza Dermody, Cameron Lynch, and Kristin Stitcher — served together in the Civil Rights Division at the U.S. Department of Justice (DOJ). 
+We — Rebecca Bond, Eliza Dermody, Cameron Lynch, and Kristin Stitcher — served together in the Civil Rights Division at the U.S. Department of Justice (DOJ).
 
 At DOJ, we worked in the Disability Rights Section, an office created to protect the rights of people with disabilities. We developed major civil rights regulations, including rules protecting the rights of people with disabilities to have equal access to websites and medical care. 
 

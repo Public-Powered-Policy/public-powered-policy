@@ -117,3 +117,12 @@
 		}
 	}
 }
+
+.accordion-panel {
+  margin-block: 1rem;
+  padding: 1rem;
+}
+
+.accordion-item:not(:first-child) {
+	margin-top: 1rem;
+}
