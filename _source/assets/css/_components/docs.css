@@ -126,3 +126,17 @@
 .accordion-item:not(:first-child) {
 	margin-top: 1rem;
 }
+
+/* Match your accordion toggle button */
+.accordion-toggle {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+}
+
+/* Panel styling */
+.accordion-panel {
+  padding: 1rem;
+  border-top: none;
+}

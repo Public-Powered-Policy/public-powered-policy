@@ -57,14 +57,10 @@ const md = markdownIt(markdownItOptions)
     containerClass: "toc" // optional: add a class for styling
   });
 
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.setLibrary('md', md);
 
   eleventyConfig.addPairedShortcode("markdown", (content) => {
-    return md.render(content);
-  });
-
-  eleventyConfig.addShortcode("mdPartial", (path) => {
-    const content = fs.readFileSync(`_source/_includes/${path}`, "utf-8");
     return md.render(content);
   });
 

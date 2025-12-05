@@ -14,7 +14,11 @@
       class="accordion-panel hidden" 
       role="region" 
       aria-labelledby="acc-btn-{{ forloop.index }}">
-      {% mdPartial item.partial %}
+
+    {% renderTemplate "liquid,md" %}
+      {% includeRaw item.partial %}
+    {% endrenderTemplate %}
+
     </div>
   {% endfor %}
 </section>
