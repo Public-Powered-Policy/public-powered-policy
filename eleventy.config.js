@@ -54,6 +54,17 @@ export default async function (eleventyConfig) {
         </div>
       </details>`;
   });
+  eleventyConfig.addPairedShortcode("processlist", function(content) {
+    return `<ol class="process-list">${content}</ol>`;
+  });
+  eleventyConfig.addShortcode("processitem", function(heading, body, level = "h3") {
+    return `
+      <li class="process-item">
+        <${level} class="process-heading">${heading}</${level}>
+        <p>${body}</p>
+      </li>
+    `;
+  });
 
   /* --------------------------------------------------------------------------
   MarkdownIt settings

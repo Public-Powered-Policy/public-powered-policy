@@ -1,6 +1,6 @@
 ---
-title: Guidance
-description: Practical guidance using styled details/summary accordions.
+title: Your first comment
+description: Practical guidance for submitting public comments.
 layout: home.html
 permalink: /guidance/
 ---
@@ -19,25 +19,19 @@ It also addresses some questions you may have about submitting comments.
 
 Just remember, commenting is important, and we’ll make it easy!
 
-{% accordion "Step 1: Find the rule", "step-1", 3 %}
-1. Go to [regulations.gov](https://www.regulations.gov/)
-2. Search for the rule you are looking for using key words. 
-  - You can refine your search by:
-    - agency 
-    - date of publication
-    - type of document
-    
-    **Refining your search will help make sure you have the right one.**
+{% accordion "Step 1: Find the rule", "step-1", 2 %}
 
-3. If you know the comment period is open, click on: “Only show documents open for comment”.
-
-{% image "refine-document-results.png", "Alt text" %}
+{% processlist %}
+  {% processitem "Go to <a href='https://www.regulations.gov/'>regulations.gov</a>." "" "h4" %}
+  {% processitem "Search for the rule you are looking for using keywords." "You can refine your search by: <ul><li>agency</li><li>date of publication</li><li>type of document</li></ul><p>Refining your search will help make sure you have the right one.</p>" "h4" %}
+  {% processitem "Only show documents open for comment." "If you know the comment period is open, select: “Only show documents open for comment”." "h4" %}{% image "refine-document-results.png", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment" %}
+{% endprocesslist %}
 
 _You can also find and read a rule on [federalregister.gov](https://www.federalregister.gov/), but you'll need to go to [regulations.gov](https://www.regulations.gov/) to submit your comment._
 
 {% endaccordion %}
 
-{% accordion "Step 2: Rendering images", "step-2", 3 %}
+{% accordion "Step 2: Check when comments are due", "step-2", 3 %}
 
 {% image "refine-document-results.png", "Alt text" %}
 
