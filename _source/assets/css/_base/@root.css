@@ -22,6 +22,7 @@
 	--neutral: oklch(80% 0.01 300deg);
 	--primary: #030f57;
 	--secondary: #6e7bc1;
+	--tertiary: #cc1a3e;
 
 	/* preset colors */
 	--color-text: light-dark(

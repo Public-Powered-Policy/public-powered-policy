@@ -12,10 +12,6 @@ items:
 permalink: /about/
 ---
 
-## Test
-
-{% include "accordion.html" items: items %}
-
 ## Origins
 
 We — Rebecca Bond, Eliza Dermody, Cameron Lynch, and Kristin Stitcher — served together in the Civil Rights Division at the U.S. Department of Justice (DOJ).

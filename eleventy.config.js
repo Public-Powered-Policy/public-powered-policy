@@ -39,6 +39,32 @@ export default async function (eleventyConfig) {
     toc += "</ul></nav>";
     return toc;
   });
+  eleventyConfig.addPairedShortcode("accordion", function(content, title, id, level = 2) {
+    const safeId = id || title.toLowerCase().replace(/\s+/g, "-");
+    const headingTag = `h${level}`;
+    return `
+      <details class="accordion">
+        <summary>
+          <${headingTag} id="${safeId}" class="accordion-item">
+            ${md.renderInline(title)}
+          </${headingTag}>
+        </summary>
+        <div class="accordion-panel">
+          ${md.render(content)}
+        </div>
+      </details>`;
+  });
+  eleventyConfig.addPairedShortcode("processlist", function(content) {
+    return `<ol class="process-list">${content}</ol>`;
+  });
+  eleventyConfig.addShortcode("processitem", function(heading, body, level = "h3") {
+    return `
+      <li class="process-item">
+        <${level} class="process-heading">${heading}</${level}>
+        <p>${body}</p>
+      </li>
+    `;
+  });
 
   /* --------------------------------------------------------------------------
   MarkdownIt settings
@@ -57,14 +83,10 @@ const md = markdownIt(markdownItOptions)
     containerClass: "toc" // optional: add a class for styling
   });
 
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.setLibrary('md', md);
 
   eleventyConfig.addPairedShortcode("markdown", (content) => {
-    return md.render(content);
-  });
-
-  eleventyConfig.addShortcode("mdPartial", (path) => {
-    const content = fs.readFileSync(`_source/_includes/${path}`, "utf-8");
     return md.render(content);
   });
 
