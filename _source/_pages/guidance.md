@@ -56,10 +56,10 @@ _You can also find and read a rule on [federalregister.gov](https://www.federalr
 {% accordion "Step 5: Submit your comment!", "step-5", 3 %}
     {% processlist %}
     {% processitem "Go to your rule on regulations.gov." "" "h4" %}
-    {% processitem "Select the “Comment button” to go to the comment form." "" "h4" %}
+    {% processitem "Find the comment button." "Select the “Comment” button to go to the comment form." "h4" %}
     {% processitem "Write your comment." "Write your comment directly in the text box in the form or attach it in a document." "h4" %}
     {% processitem "Don't include your personal identity information." "Be careful to not include any Personal Identifying Information (like your date of birth) or Confidential Business Information. Your comment could end up being publicly viewable." "h4" %}
-    {% endprocesslist %}
+    {% endprocesslist %}{% image "comment-button.png", "Screenshot of a state plans rule with a blue comment button" %}
 {% endaccordion %}
 {% accordion "Step 6: Follow the rule and stay involved!", "step-6", 3 %}
     {% processlist %}
