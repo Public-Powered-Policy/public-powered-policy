@@ -44,7 +44,7 @@ export default async function (eleventyConfig) {
     const headingTag = `h${level}`;
     return `
       <details class="accordion">
-        <summary>
+        <summary class="button">
           <${headingTag} id="${safeId}" class="accordion-item">
             ${md.renderInline(title)}
           </${headingTag}>

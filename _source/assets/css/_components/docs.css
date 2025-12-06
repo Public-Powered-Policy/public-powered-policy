@@ -182,7 +182,7 @@ p > img {
 }
 
 .process-item::before {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-xxl);
   line-height: 1;
   counter-increment: step;       /* increment for each item */
