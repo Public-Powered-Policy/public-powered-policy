@@ -107,12 +107,6 @@ const md = markdownIt(markdownItOptions)
     return md.render(content);
   });
 
-  eleventyConfig.on('eleventy.before', ({ dir }) => {
-  console.log("Eleventy input:", dir.input);
-  console.log("Contents:", fs.readdirSync(dir.input));
-});
-
-
   return {
     dir: {
       input: '_source',

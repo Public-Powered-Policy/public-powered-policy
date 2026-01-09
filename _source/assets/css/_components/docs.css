@@ -19,13 +19,31 @@
 }
 
 .hero {
-	position: relative;
-	margin-block: var(--space-xxl);
-	font-size: clamp(3.6em, 8vw, 7em);
-	line-height: 1;
-	font-weight: var(--font-weight-xs);
-	color: var(--color-accent);
-	z-index: var(--z-2);
+  position: relative;
+  margin-block: var(--space-xxl);
+  font-size: clamp(3.6em, 8vw, 7em);
+  line-height: 1;
+  font-weight: var(--font-weight-xs);
+  color: var(--color-accent);
+  z-index: var(--z-2);
+  display: inline-block; /* ensures the brushstroke hugs the text width */
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: -0.2em;
+  bottom: -0.3em;
+  width: max-content;
+  min-width: 100%;
+  height: 0.45em;
+
+  background-image: url("/public-powered-policy/static/brush.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  z-index: -1;
+  opacity: 0.9;
 }
 
 @media (--md) {
