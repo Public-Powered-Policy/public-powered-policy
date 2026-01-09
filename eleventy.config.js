@@ -15,6 +15,16 @@ import fs from "fs";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 
 export default async function (eleventyConfig) {
+
+  /* --------------------------------------------------------------------------
+  Files & folders
+  -------------------------------------------------------------------------- */
+  eleventyConfig.ignores.add('.DS_Store');
+  eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
+  eleventyConfig.addPassthroughCopy('assets/fonts');
+  eleventyConfig.addPassthroughCopy('assets/images');
+  eleventyConfig.addPassthroughCopy('static');
+    
   /* --------------------------------------------------------------------------
   Plugins, bundles, shortcodes, filters
   -------------------------------------------------------------------------- */
@@ -89,15 +99,6 @@ const md = markdownIt(markdownItOptions)
   eleventyConfig.addPairedShortcode("markdown", (content) => {
     return md.render(content);
   });
-
-  /* --------------------------------------------------------------------------
-  Files & folders
-  -------------------------------------------------------------------------- */
-  eleventyConfig.ignores.add('.DS_Store');
-  eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
-  eleventyConfig.addPassthroughCopy('assets/fonts');
-  eleventyConfig.addPassthroughCopy('assets/images');
-  eleventyConfig.addPassthroughCopy('static');
 
   return {
     dir: {
