@@ -1,6 +1,6 @@
 ---
 title: Your voice matters.
-description: Grease takes the friction out of building fast, adaptable, aesthetic websites.
+description: Your voice is more important than ever. Find out how you can use it to help make a difference.
 layout: home.html
 eleventyNavigation:
   key: index
@@ -8,19 +8,10 @@ eleventyNavigation:
 permalink: /
 ---
 
-## Why your comment matters
+## Our democracy counts on it
 
-Federal agencies must consider and respond to significant comments. A
-well-written comment can:
+Federal policy–made through rulemaking–shapes our daily lives from the quality of the air we breathe to how schools run. A healthy democracy relies on everyone’s voices being a part of it.
 
-- Slow down harmful rules*
-- Help prevent bad policies from taking effect
-- Make good policies better
-- Help set up future challenges
-- Point out procedural irregularities
+But so often, people impacted by federal policy, like you, are left out of the process while industry has an outsized say.
 
-> “An agency must consider and respond to significant comments received
-during the period for public comment.”
-— Perez v. Mortgage Bankers Ass’n, 575 U.S. 92, 96 (2015)
-
-*Remember: rules can be regulatory or deregulatory actions.
+**Your voice is more important than ever.** Find out how you can use it to help make a difference.
