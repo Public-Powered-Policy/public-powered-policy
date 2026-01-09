@@ -95,8 +95,9 @@ const md = markdownIt(markdownItOptions)
   -------------------------------------------------------------------------- */
   eleventyConfig.ignores.add('.DS_Store');
   eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
-  eleventyConfig.addPassthroughCopy('_source/assets/fonts');
-  eleventyConfig.addPassthroughCopy('_source/assets/images');
+  eleventyConfig.addPassthroughCopy('assets/fonts');
+  eleventyConfig.addPassthroughCopy('assets/images');
+  eleventyConfig.addPassthroughCopy('static');
 
   return {
     dir: {
