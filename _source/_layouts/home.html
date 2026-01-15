@@ -1,3 +1,6 @@
+---
+---
+
 {% include "head.html" %}
 <body class="grid">
   <header id="header" class="grid">
@@ -9,12 +12,15 @@
         <!-- Inline nav: visible at md and larger -->
         <div class="hidden@sm">
           <ul class="docs-nav-group unlisted inline-flex gap-xs shrink align-items-center">
-            <li><a href="{{ '/about/' | url }}" class="button --subtle --primary shadow-md">About</a></li>
-            <li><a href="{{ '/guidance/' | url }}" class="button --subtle --primary shadow-md">Toolkit</a></li>
-            <li><a href="{{ '/contact/' | url }}" class="button --subtle --primary shadow-md">Contact</a></li>
+            {% for item in mainNav %}
+              <li>
+                <a href="{{ item.url | url }}" class="button --subtle --primary shadow-md">
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endfor %}
           </ul>
         </div>
-
         <!-- Dropdown nav: visible below md -->
         <popover-menu class="hidden@md">
           <button popovertarget="nav-menu" aria-label="Menu" id="nav-menu-button" class="shadow-md button --fill --primary">
@@ -22,9 +28,13 @@
           </button>
           <div id="nav-menu" role="menu" aria-labelledby="nav-menu-button" popover class="anchor-right">
             <ul class="unlisted">
-              <li><a href="{{ '/about/' | url }}" class="button --menu --primary">About</a></li>
-              <li><a href="#" class="button --menu --primary">Contact</a></li>
-              <li><a href="#" class="button --menu --primary">Donate</a></li>
+              {% for item in mainNav %}
+                <li>
+                  <a href="{{ item.url | url }}" class="button --menu --primary">
+                    {{ item.title }}
+                  </a>
+                </li>
+              {% endfor %}
             </ul>
           </div>
         </popover-menu>
