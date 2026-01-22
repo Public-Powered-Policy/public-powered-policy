@@ -1,46 +1,81 @@
 ---
 title: About
-description: Grease takes the friction out of building fast, adaptable, aesthetic websites.
+description: The Public Powered Policy team has vast experience with federal rulemaking and policy development. We apply this experience to help you influence the policies that affect your daily life.
 layout: home.html
-items:
-  - title: "Step 1: Find the rule"
-    partial: "partials/test-1.md"
-  - title: "Step 2: Not rendering as markdown"
-    partial: "partials/test-2.md"
-  - title: "Step 3: Testing this is infuriating"
-    partial: "partials/test-3.md"    
 permalink: /about/
 ---
 
-## Origins
+## Our origins and experience
 
-We — Rebecca Bond, Eliza Dermody, Cameron Lynch, and Kristin Stitcher — served together in the Civil Rights Division at the U.S. Department of Justice (DOJ).
+### Who we are
 
-At DOJ, we worked in the Disability Rights Section, an office created to protect the rights of people with disabilities. We developed major civil rights regulations, including rules protecting the rights of people with disabilities to have equal access to websites and medical care. 
+Public Powered Policy was founded by former leaders of the U.S. Department of Justice Civil Rights Division. We served together in the Disability Rights Section — the office responsible for enforcing and strengthening the civil rights of people with disabilities nationwide.
 
-Rebecca led the Section as Chief for 12 years, filing lawsuits, drafting key civil rights rules, and providing valuable information to people with disabilities, businesses, and state and local governments on their rights and responsibilities (more on each of us below).
+We didn’t just study federal rulemaking. We lived inside it.
 
-After this administration made clear that we were not welcome (for example, Rebecca was abruptly relieved of her leadership responsibilities), we lost confidence that we’d be able to protect the integrity of the law and the rights of people with disabilities. After serving well across multiple administrations, we made the difficult decision to leave the Department.
+At DOJ, we were responsible for developing and implementing major civil rights regulations that affect millions of people’s daily lives, including:
 
-**Although we left DOJ, we knew our work to protect your rights wasn’t done.** We also saw how those with power were trying to limit your ability to influence the rules and regulations that impact your daily life. Now, we’ve teamed up to use our experience to help the public reclaim its voice in federal rulemaking. We want to spotlight the administration’s attempts to draft harmful rules and to cut you out of the process. 
+- A rule requiring state and local government websites to be accessible, so people with disabilities can use the internet to vote, apply to college, follow civic events, and stay informed about what’s happening in their children’s schools.
+- A rule requiring medical diagnostic equipment to be accessible, covering exam tables, weight scales, mammography machines, and more — ensuring that people with disabilities can receive basic medical care, including being weighed at the doctor’s office.
+- The award-winning redesign of ADA.gov, transforming it into a practical, plain-language resource used by people with disabilities, businesses, and governments to understand their rights and responsibilities in everyday situations.
 
-We want to arm you with the tools you need to ensure your voice is heard. 
+You can find these rules and related resources at [ADA.gov](https://www.ada.gov/).
 
-## Mission
+Through this work, we saw how the federal rulemaking system is supposed to operate — and how often it doesn’t. Too frequently, large corporations and industry groups dominate the process, pushing agencies to write rules that serve them, even when those rules fail the public.
 
-To strengthen democracy by breaking down barriers to meaningful and widespread public engagement in the regulatory process by spotlighting harms, empowering the public, and reimagining the playing field. 
-Basically, we want to let you know how rules impact you, what potentially harmful rules are coming, and how you can get involved and use your voice.
+### Why now?
 
-**And hopefully in the long run, we can help make better rules that work for you.**
+When we left the government, we didn’t leave our mission behind.
 
-## Experience
+We are seeing powerful efforts underway to shrink public participation, rush harmful rules through, and bury ordinary people under technical language and opaque procedures. When the public is locked out, rights are quietly weakened and accountability disappears.
 
-We have been inside the machinery of federal rulemaking and know how it should operate. But too often, industry groups and large corporations push agencies to draft rules that are good for them. Even when they’re not good for you. We know regulations are better when they’re based on feedback from people like you. We want to help you push the government to write rules that work for you.
+Public Powered Policy exists to reverse that trend.
 
-At DOJ, we protected the rights of millions of people. For example, we:
+### What we do
 
-- Drafted a rule to make state and local government websites accessible so that people with disabilities can use the internet to help them vote, go to college, learn about civic events, and understand what’s happening at their child’s school.
-- Drafted a rule to make medical diagnostic equipment, like exam tables, weight scales, and mammography equipment, accessible. This rule will help people in their everyday lives by requiring doctors to have accessible equipment, like scales that allow people with disabilities to be weighed when they go to the doctor. You can see [these rules at ADA.gov](https://www.ada.gov/resources/2024-08-08-mde-fact-sheet/). 
-- Led the award-winning redesign of [ADA.gov](https://www.ada.gov/) to help people with disabilities, businesses and state and local governments understand their rights and responsibilities under the ADA in everyday situations.
+We use our insider experience to spotlight attempts to undermine public protections, and we translate the rulemaking system into clear, practical tools that make it possible for anyone — not just lawyers and lobbyists — to participate.
 
-## About Us
+Because your voice belongs in the rules that govern your life. And when the public shows up, the system works better for everyone.
+
+### Mission
+
+We alert, equip, and empower the public to influence the federal policies that shape their lives.
+
+## About us
+
+Rebecca Bond{.font-size-lg .font-weight-xl}
+
+Rebecca B. Bond is a civil rights attorney who spent 25 years at the U.S. Department of Justice working to protect and expand the rights of people with disabilities and other marginalized communities.
+
+For twelve years, she served as Chief of the Disability Rights Section in the Civil Rights Division, where she led national enforcement of the Americans with Disabilities Act. In that role, she oversaw landmark ADA regulations, major investigations, and high-impact litigation that improved access to healthcare, education, voting, and government services for millions of people.
+
+Rebecca also twice served as Acting Deputy Assistant Attorney General for Civil Rights — under both the Biden and Trump administrations — helping guide the Division’s work on disability rights, education equity, voting rights, and Title VI enforcement.
+
+Earlier in her career, she brought Fair Housing Act cases as a Trial Attorney and Deputy Chief in the Housing and Civil Enforcement Section and served as a Special Assistant United States Attorney prosecuting criminal cases.
+
+Rebecca is a graduate of Harvard Law School and Yale University.
+
+Cameron Lynch{.font-size-lg .font-weight-xl}
+
+Cameron Lynch is a disability rights advocate who works to ensure equitable of treatment of disabled people through policy advocacy and intersectional engagement. 
+
+Cameron is currently a policy analyst with the Autistic Self Advocacy Network where she focuses on the education, civil rights, and accessible technology portfolios. Before this role, Cameron served in the U.S. Department of Justice Disability Rights Section as a paralegal, working on regulations under the Americans with Disabilities Act. She as also created Chronic and Iconic, an online advocacy and support organization for disabled young people. Her advocacy work has been featured in USA Today, CNN, The Washington Post, The New York Times, and the BBC. 
+
+Lynch graduated from the College of William and Mary, where she studied Sociology and Government, with a concentration on Social Problems, Policy, and Justice where she received the 2022 James Monroe Prize for Civic Leadership.
+
+Kristin Stitcher{.font-size-lg .font-weight-xl}
+
+Kristin Stitcher is a civil rights and regulatory attorney. She worked for the Department of Justice, Civil Rights Division, Disability Rights Section for over eight years in a few different roles, including as a Deputy Chief. Kristin’s work was aimed at protecting and advancing the rights of people with disabilities. She was also particularly focused on the intersection of law, technology, and accessibility. 
+
+While at DOJ, Kristin led a team that was responsible for:
+
+- developing regulations under the Americans with Disabilities Act (ADA)
+- creating related technical assistance to help people understand their legal rights and responsibilities
+- coordinating regulatory developments with other federal agencies
+- delivering information to the public via ADA.gov 
+
+Also, she has two dogs and likes playing volleyball.
+
+## Contact us
+
+If you have questions, are interested in learning more about public engagement in the regulatory process, or just want to talk to us, please [feel free to reach out]({{ '/contact/' | url }}).
