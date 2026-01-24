@@ -16,11 +16,7 @@ But so often, people impacted by federal policy, like you, are left out of the p
 
 **Your voice is more important than ever.** Find out how you can use it to help make a difference.
 
-<div class="divider">
-  <span class="divider-line"></span>
-  {% render "svg/ppp.svg", class: "divider-logo-lg" %}
-  <span class="divider-line"></span>
-</div>
+{% include "logo-divider.html" %}
 
 <blockquote>
   <p>Without public engagement, we risk regulating without rigor, repealing without reason and governing without accountability.</p>
