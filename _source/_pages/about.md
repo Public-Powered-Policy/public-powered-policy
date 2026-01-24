@@ -7,6 +7,12 @@ permalink: /about/
 
 ## Our origins and experience
 
+<div class="divider">
+  <span class="divider-line"></span>
+  {% render "svg/ppp.svg", class: "divider-logo-lg" %}
+  <span class="divider-line"></span>
+</div>
+
 ### Who we are
 
 Public Powered Policy was founded by former leaders of the U.S. Department of Justice Civil Rights Division. We served together in the Disability Rights Section — the office responsible for enforcing and strengthening the civil rights of people with disabilities nationwide.
@@ -40,12 +46,6 @@ Because your voice belongs in the rules that govern your life. And when the publ
 ### Mission
 
 We alert, equip, and empower the public to influence the federal policies that shape their lives.
-
-<div class="divider">
-  <span class="divider-line"></span>
-  {% render "svg/ppp.svg", class: "divider-logo" %}
-  <span class="divider-line"></span>
-</div>
 
 </div>
 
