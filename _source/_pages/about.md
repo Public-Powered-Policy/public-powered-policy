@@ -5,13 +5,13 @@ layout: home.html
 permalink: /about/
 ---
 
-## Our origins and experience
+## Our mission
 
-{{ description }}
+We alert, equip, and empower the public to influence the federal policies that shape their lives.{.font-size-lg}
 
 {% include "logo-divider.html" %}
 
-### Who we are
+## Who we are
 
 Public Powered Policy was founded by former leaders of the U.S. Department of Justice Civil Rights Division. 
 
@@ -29,7 +29,7 @@ You can find these rules and related resources at [ADA.gov](https://www.ada.gov/
 
 Through this work, we saw how the federal rulemaking system is supposed to operate — and how often it doesn’t. Too frequently, large corporations and industry groups dominate the process, pushing agencies to write rules that serve them, even when those rules fail the public.
 
-### Why now?
+## Why now?
 
 When we left the government, we didn’t leave our mission behind.
 
@@ -37,15 +37,11 @@ We are seeing powerful efforts underway to shrink public participation, rush har
 
 Public Powered Policy exists to reverse that trend.
 
-### What we do
+## What we do
 
 We use our insider experience to spotlight attempts to undermine public protections, and we translate the rulemaking system into clear, practical tools that make it possible for anyone — not just lawyers and lobbyists — to participate.
 
 Because your voice belongs in the rules that govern your life. And when the public shows up, the system works better for everyone.
-
-### Mission
-
-We alert, equip, and empower the public to influence the federal policies that shape their lives.
 
 ## About us
 
