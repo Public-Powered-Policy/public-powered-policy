@@ -1,13 +1,13 @@
 ---
 title: About
-description: The Public Powered Policy team has vast experience with federal rulemaking and policy development. We apply this experience to help you influence the policies that affect your daily life.
+description: We alert, equip, and empower the public to influence the federal policies that shape their lives.
 layout: home.html
 permalink: /about/
 ---
 
 ## Our mission
 
-We alert, equip, and empower the public to influence the federal policies that shape their lives.{.font-size-lg}
+{{ description }}
 
 {% include "logo-divider.html" %}
 
