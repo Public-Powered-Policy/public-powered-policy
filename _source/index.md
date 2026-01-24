@@ -16,6 +16,12 @@ But so often, people impacted by federal policy, like you, are left out of the p
 
 **Your voice is more important than ever.** Find out how you can use it to help make a difference.
 
+<div class="divider">
+  <span class="divider-line"></span>
+  {% render "svg/ppp.svg", class: "divider-logo-lg" %}
+  <span class="divider-line"></span>
+</div>
+
 <blockquote>
   <p>Without public engagement, we risk regulating without rigor, repealing without reason and governing without accountability.</p>
   <cite>→ <a href="https://thehill.com/opinion/congress-blog/the-administration/5621859-federal-rules-without-public-process/">Read our cofounder's op-ed in The Hill</a></cite>
