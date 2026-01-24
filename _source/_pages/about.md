@@ -7,11 +7,15 @@ permalink: /about/
 
 ## Our origins and experience
 
+{{ description }}
+
 {% include "logo-divider.html" %}
 
 ### Who we are
 
-Public Powered Policy was founded by former leaders of the U.S. Department of Justice Civil Rights Division. We served together in the Disability Rights Section — the office responsible for enforcing and strengthening the civil rights of people with disabilities nationwide.
+Public Powered Policy was founded by former leaders of the U.S. Department of Justice Civil Rights Division. 
+
+We served together in the Disability Rights Section — the office responsible for enforcing and strengthening the civil rights of people with disabilities nationwide.
 
 We didn’t just study federal rulemaking. We lived inside it.
 

@@ -8,6 +8,8 @@ permalink: /guidance/
 
 So you know a rule that you want to comment on. Maybe you heard about it on the news, social media, or a podcast and you have something to say about how it would impact you and the world around you. Excellent. Welcome! Anyone can and should comment!
 
+{% include "logo-divider.html" %}
+
 Commenting is key. Your comments can help hold the government accountable, change federal policy, and stop the government from taking actions that can harm you. Use your voice. 
 
 And, don’t panic! This guide clearly explains how to: 
