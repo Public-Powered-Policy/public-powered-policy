@@ -55,7 +55,7 @@ _You can also find and read a rule on [federalregister.gov](https://www.federalr
 {% endaccordion %}
 {% accordion "Step 4: What to say — use what you know", "step-4", 3 %}
     {% processlist %}
-    {% processitem "Focus on how the rule affects you and your community." "Be specific. Be specific. Tell the agency what should change and why it matters." "h4" %}
+    {% processitem "Focus on how the rule affects you and your community." "Be specific. Tell the agency what should change and why it matters." "h4" %}
     {% processitem "Your comment doesn’t need to sound legal or formal." "Even a short paragraph can make a difference." "h4" %}
     {% processitem "You can submit anonymously." "You do not have to include your name." "h4" %}
     {% processitem "You can use AI to help draft your comment." "Just double-check it so it’s accurate and reflects what you want to say." "h4" %}
