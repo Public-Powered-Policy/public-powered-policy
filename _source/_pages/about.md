@@ -49,7 +49,7 @@ Because your voice belongs in the rules that govern your life. And when the publ
   {% image "rebecca.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-xl h-auto mx-auto" %}
 
   <div class="name-line">
-    <span class="name-text font-size-lg font-weight-xl">Rebecca Bond</span>
+    <span class="name-text font-size-lg font-weight-xl">Rebecca B. Bond</span>
   </div>
   <p class="mt-1 font-size-sm">Civil Rights Attorney</p>
 </div>

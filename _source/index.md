@@ -23,9 +23,9 @@ We translate the federal rulemaking process into clear, practical tools that hel
 **Your voice is more important than ever.**
 Learn how to make a public comment in minutes and help shape the policies that shape your life.
 
-[Get started by learning how to submit your first comment→]({{ "/guidance/" | url }})
+[Get started by learning how to submit your first comment →]({{ "/guidance/" | url }}){.button .--simple .--primary}
 
 <blockquote>
   <p>Without public engagement, we risk regulating without rigor, repealing without reason and governing without accountability.</p>
-  <cite>→ <a href="https://thehill.com/opinion/congress-blog/the-administration/5621859-federal-rules-without-public-process/">Read our cofounder's op-ed in The Hill</a></cite>
+  <cite><a href="https://thehill.com/opinion/congress-blog/the-administration/5621859-federal-rules-without-public-process/">Read our cofounder's op-ed in The Hill</a> →</cite>
 </blockquote>
