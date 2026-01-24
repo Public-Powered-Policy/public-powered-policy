@@ -255,23 +255,36 @@ p > img {
   height: auto;
 }
 
-.bio {
-  /* mobile: stacked */
-  /* md+: side‑by‑side via utilities */
-  margin-block: var(--space-xl);
+.bio-card {
+  text-align: center;
 }
 
-.bio-img {
-  border-radius: var(--radius-md);
-  object-fit: cover;
-  /* ensures consistent sizing on large screens */
+.bio-card picture {
+  display: block;
   max-width: 12rem;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bio-content {
-  /* spacing handled by utilities */
-  max-width: 65ch;
+.name-line {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* space between line and text */
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.name-line::before,
+.name-line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: currentColor; /* matches text color */
+  opacity: 0.4; /* subtle */
+}
+
+.name-text {
+  white-space: nowrap;
 }
 
 /* Forms */

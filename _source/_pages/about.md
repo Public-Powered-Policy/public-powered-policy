@@ -7,11 +7,7 @@ permalink: /about/
 
 ## Our origins and experience
 
-<div class="divider">
-  <span class="divider-line"></span>
-  {% render "svg/ppp.svg", class: "divider-logo-lg" %}
-  <span class="divider-line"></span>
-</div>
+{% include "logo-divider.html" %}
 
 ### Who we are
 
@@ -47,13 +43,16 @@ Because your voice belongs in the rules that govern your life. And when the publ
 
 We alert, equip, and empower the public to influence the federal policies that shape their lives.
 
-</div>
-
 ## About us
 
-{% image "rebecca.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-md w-full max-w-12rem h-auto" %}
+<div class="bio-card">
+  {% image "rebecca.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-md h-auto mx-auto" %}
 
-Rebecca Bond{.font-size-lg .font-weight-xl}
+  <div class="name-line">
+    <span class="name-text font-size-lg font-weight-xl">Rebecca Bond</span>
+  </div>
+  <p class="mt-1 font-size-sm">Civil Rights Attorney</p>
+</div>
 
 Rebecca B. Bond is a civil rights attorney who spent 25 years at the U.S. Department of Justice working to protect and expand the rights of people with disabilities and other marginalized communities.
 
@@ -65,9 +64,13 @@ Earlier in her career, she brought Fair Housing Act cases as a Trial Attorney an
 
 Rebecca is a graduate of Harvard Law School and Yale University.
 
-<hr>
-
-Cameron Lynch{.font-size-lg .font-weight-xl}
+<div class="bio-card">
+  {% image "cameron.jpg", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-md h-auto mx-auto" %}
+  <div class="name-line">
+    <span class="name-text font-size-lg font-weight-xl">Cameron Lynch</span>
+  </div>
+  <p class="mt-1 font-size-sm">Disability Rights Advocate</p>
+</div>
 
 Cameron Lynch is a disability rights advocate who works to ensure equitable of treatment of disabled people through policy advocacy and intersectional engagement. 
 
@@ -75,13 +78,16 @@ Cameron is currently a policy analyst with the Autistic Self Advocacy Network wh
 
 Lynch graduated from the College of William and Mary, where she studied Sociology and Government, with a concentration on Social Problems, Policy, and Justice where she received the 2022 James Monroe Prize for Civic Leadership.
 
-<hr>
+<div class="bio-card">
+  {% image "kristin.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-md h-auto mx-auto" %}
 
-{% image "kristin.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-md w-full max-w-12rem h-auto" %}
+  <div class="name-line">
+    <span class="name-text font-size-lg font-weight-xl">Kristin Stitcher</span>
+  </div>
+  <p class="mt-1 font-size-sm">Civil Rights and Regulatory Attorney</p>
+</div>
 
-Kristin Stitcher{.font-size-lg .font-weight-xl}
-
-Kristin Stitcher is a civil rights and regulatory attorney. She worked for the Department of Justice, Civil Rights Division, Disability Rights Section for over eight years in a few different roles, including as a Deputy Chief. Kristin’s work was aimed at protecting and advancing the rights of people with disabilities. She was also particularly focused on the intersection of law, technology, and accessibility. 
+Kristin worked for the Department of Justice, Civil Rights Division, Disability Rights Section for over eight years in a few different roles, including as a Deputy Chief. Kristin’s work was aimed at protecting and advancing the rights of people with disabilities. She was also particularly focused on the intersection of law, technology, and accessibility. 
 
 While at DOJ, Kristin led a team that was responsible for:
 
