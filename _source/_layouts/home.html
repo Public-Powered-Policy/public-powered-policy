@@ -67,14 +67,16 @@
   <main class="grid">
     <h1 class="hero">{{ title }}</h1>
     <section id="docs" class="docs-layout">
-      <nav class="sticky@md top-md mb-lg">
-        <small-details>
-          <details>
-            <summary class="font-size-sm font-weight-md uppercase letter-spacing-lg">On this page</summary>
+      {% if page.inputPath != "./_source/index.md" %}
+        <nav class="sticky@md top-md mb-lg">
+          <small-details>
+            <details>
+              <summary class="font-size-sm font-weight-md uppercase letter-spacing-lg">On this page</summary>
               {{ content | tocFromHtml }}
-          </details>
-        </small-details>
-      </nav>
+            </details>
+          </small-details>
+        </nav>
+      {% endif %}
       <article class="line-length-lg">
         {{ content }}
       </article>

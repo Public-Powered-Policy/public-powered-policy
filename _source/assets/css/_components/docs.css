@@ -231,7 +231,7 @@ p > img {
   border: 4px solid var(--neutral);
 }
 
-/* Bios */
+/* Divider */
 
 .divider {
   display: flex;
@@ -255,6 +255,8 @@ p > img {
   height: auto;
 }
 
+/* Bios */
+
 .bio-card {
   text-align: center;
 }
@@ -264,6 +266,10 @@ p > img {
   max-width: 12rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bio-img {
+  border: 10px solid var(--secondary);
 }
 
 .name-line {
