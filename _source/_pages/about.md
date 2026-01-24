@@ -41,7 +41,17 @@ Because your voice belongs in the rules that govern your life. And when the publ
 
 We alert, equip, and empower the public to influence the federal policies that shape their lives.
 
+<div class="divider">
+  <span class="divider-line"></span>
+  {% render "svg/ppp.svg", class: "divider-logo" %}
+  <span class="divider-line"></span>
+</div>
+
+</div>
+
 ## About us
+
+{% image "rebecca.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-md w-full max-w-12rem h-auto" %}
 
 Rebecca Bond{.font-size-lg .font-weight-xl}
 
@@ -55,6 +65,8 @@ Earlier in her career, she brought Fair Housing Act cases as a Trial Attorney an
 
 Rebecca is a graduate of Harvard Law School and Yale University.
 
+<hr>
+
 Cameron Lynch{.font-size-lg .font-weight-xl}
 
 Cameron Lynch is a disability rights advocate who works to ensure equitable of treatment of disabled people through policy advocacy and intersectional engagement. 
@@ -62,6 +74,10 @@ Cameron Lynch is a disability rights advocate who works to ensure equitable of t
 Cameron is currently a policy analyst with the Autistic Self Advocacy Network where she focuses on the education, civil rights, and accessible technology portfolios. Before this role, Cameron served in the U.S. Department of Justice Disability Rights Section as a paralegal, working on regulations under the Americans with Disabilities Act. She as also created Chronic and Iconic, an online advocacy and support organization for disabled young people. Her advocacy work has been featured in USA Today, CNN, The Washington Post, The New York Times, and the BBC. 
 
 Lynch graduated from the College of William and Mary, where she studied Sociology and Government, with a concentration on Social Problems, Policy, and Justice where she received the 2022 James Monroe Prize for Civic Leadership.
+
+<hr>
+
+{% image "kristin.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-md w-full max-w-12rem h-auto" %}
 
 Kristin Stitcher{.font-size-lg .font-weight-xl}
 

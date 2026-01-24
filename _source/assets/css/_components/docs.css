@@ -231,6 +231,49 @@ p > img {
   border: 4px solid var(--neutral);
 }
 
+/* Bios */
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.divider-logo {
+  width: 42px;
+  height: auto;
+}
+
+.divider-logo-lg {
+  width: 64px;
+  height: auto;
+}
+
+.bio {
+  /* mobile: stacked */
+  /* md+: side‑by‑side via utilities */
+  margin-block: var(--space-xl);
+}
+
+.bio-img {
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  /* ensures consistent sizing on large screens */
+  max-width: 12rem;
+  margin: 0;
+}
+
+.bio-content {
+  /* spacing handled by utilities */
+  max-width: 65ch;
+}
+
 /* Forms */
 
 .visually-hidden {
