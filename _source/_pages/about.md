@@ -46,7 +46,7 @@ Because your voice belongs in the rules that govern your life. And when the publ
 ## About us
 
 <div class="bio-card">
-  {% image "rebecca.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-xl h-auto mx-auto" %}
+  {% image "rebecca.webp", "Headshot of Rebecca Bond", "bio-img radius-xl h-auto mx-auto" %}
 
   <div class="name-line">
     <span class="name-text font-size-lg font-weight-xl">Rebecca B. Bond</span>
@@ -65,7 +65,7 @@ Earlier in her career, she brought Fair Housing Act cases as a Trial Attorney an
 Rebecca is a graduate of Harvard Law School and Yale University.
 
 <div class="bio-card">
-  {% image "cameron.jpg", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-xl h-auto mx-auto" %}
+  {% image "cameron.jpg", "Headshot of Cameron Lynch", "bio-img radius-xl h-auto mx-auto" %}
   <div class="name-line">
     <span class="name-text font-size-lg font-weight-xl">Cameron Lynch</span>
   </div>
@@ -79,7 +79,7 @@ Cameron is currently a policy analyst with the Autistic Self Advocacy Network wh
 Lynch graduated from the College of William and Mary, where she studied Sociology and Government, with a concentration on Social Problems, Policy, and Justice where she received the 2022 James Monroe Prize for Civic Leadership.
 
 <div class="bio-card">
-  {% image "kristin.webp", "Screenshot of Refine Document Results with a checkbox selected for Only show documents open for comment", "bio-img radius-xl h-auto mx-auto" %}
+  {% image "kristin.webp", "Headshot of Kristin Stitcher", "bio-img radius-xl h-auto mx-auto" %}
 
   <div class="name-line">
     <span class="name-text font-size-lg font-weight-xl">Kristin Stitcher</span>
