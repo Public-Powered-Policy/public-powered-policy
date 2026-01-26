@@ -6,7 +6,7 @@ permalink: /guidance/
 ---
 ## How to submit your first comment
 
-So you want to comment on a rule. Maybe you heard about it on the news, from a friend, on social media, or on a podcast. The rule affects your life or the world around you — and you have something to say.
+So you want to comment on a federal policy—also called a rule. Maybe you heard about it on the news, from a friend, on social media, or on a podcast. The rule affects your life or the world around you — and you have something to say.
 
 That’s exactly how this is supposed to work. Welcome. Anyone can comment, and your voice truly matters.
 
@@ -26,7 +26,7 @@ We’ll also answer some common questions along the way.
 Just remember: this process belongs to you, and we’re here to make it easy.
 
 **One quick note about language:**
-You may hear rules called “proposed rules” or “draft rules.” That just means they aren’t final yet. On this page, we’ll simply use the word rule to keep things simple.
+You may hear rules called “proposed rules” or “draft rules.” That just means they aren’t final yet. On this page, we’ll use the word _rule_ to keep things simple.
 
 {% accordion "Step 1: Find the rule.", "step-1", 3 %}
 
@@ -41,7 +41,7 @@ _You can also find and read a rule on [federalregister.gov](https://www.federalr
 
 {% accordion "Step 2: Check when comments are due.", "step-2", 3 %}
     {% processlist %}
-    {% processitem "Many rules have 30- or 60-day periods." "Submit your comment before the deadline — late comments are not always considered." "h4" %}
+    {% processitem "Many rules have 30- or 60-day comment periods." "Submit your comment before the deadline — late comments are not always considered." "h4" %}
     {% processitem "If you need more time..." "Submit a comment asking the agency to extend the deadline as soon as possible. Because they might not grant it, try to submit your comment by the original deadline if you can." "h4" %}
     {% endprocesslist %}
 {% endaccordion %}
