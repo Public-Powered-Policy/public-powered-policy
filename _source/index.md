@@ -12,13 +12,13 @@ permalink: /
 
 {% include "logo-divider.html" %}
 
-Federal rules shape everyday life — from the air we breathe and the healthcare we receive to how our schools operate and our civil rights are protected. Yet most people never hear about these rules until it’s too late to influence them.
+Federal policies shape everyday life — from the air we breathe and the healthcare we receive to how our schools operate and our civil rights are protected. Yet most people never hear about these policies until it’s too late to influence them.
 
 A healthy democracy depends on public participation. But too often, the people most affected are shut out, while powerful industries dominate the process. Increasingly, agencies are rushing major policies forward while making it harder for the public to weigh in.
 
 That’s why Public Powered Policy exists.
 
-We translate the federal rulemaking process into clear, practical tools that help you show up, speak out, and protect your rights — no law degree required.
+We translate federal policymaking (aka rulemaking) into clear, practical tools that help you show up, speak out, and protect your rights — no law degree required.
 
 **Your voice is more important than ever.**
 Learn how to make a public comment in minutes and help shape the policies that shape your life.
