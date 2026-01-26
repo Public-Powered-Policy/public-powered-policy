@@ -53,7 +53,7 @@ _You can also find and read a rule on [federalregister.gov](https://www.federalr
     {% processitem "To get oriented, you can:" "<ul><li>Start with the rule’s executive summary.</li><li>Look for fact sheets or plain-language explainers from the agency or third parties.</li><li>Use AI to help summarize the rule (just remember that AI can make mistakes).</li><li>Read comments others have submitted to get ideas for what to say or how to say it. You can find these in the “Comments” tab on regulations.gov.</li></ul>" "h4" %}
     {% endprocesslist %}
 {% endaccordion %}
-{% accordion "Step 4: What to say — use what you know", "step-4", 3 %}
+{% accordion "Step 4: What to say — use what you know.", "step-4", 3 %}
     {% processlist %}
     {% processitem "Focus on how the rule affects you and your community." "Be specific. Tell the agency what should change and why it matters." "h4" %}
     {% processitem "Your comment doesn’t need to sound legal or formal." "Even a short paragraph can make a difference." "h4" %}
