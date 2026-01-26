@@ -17,9 +17,9 @@ Public Powered Policy was founded by former leaders of the U.S. Department of Ju
 
 We served together in the Disability Rights Section — the office responsible for enforcing and strengthening the civil rights of people with disabilities nationwide.
 
-We didn’t just study federal rulemaking. We lived inside it.
+We didn’t just study federal rulemaking (aka policymaking). We lived inside it.
 
-At DOJ, we were responsible for developing and implementing major civil rights regulations that affect millions of people’s daily lives, including:
+At DOJ, we were responsible for developing and implementing major civil rights rules that affect millions of people’s daily lives, including:
 
 - A rule requiring state and local government websites to be accessible, so people with disabilities can use the internet to vote, apply to college, follow civic events, and stay informed about what’s happening in their children’s schools.
 - A rule requiring medical diagnostic equipment to be accessible, covering exam tables, weight scales, mammography machines, and more — ensuring that people with disabilities can receive basic medical care, including being weighed at the doctor’s office.
@@ -33,15 +33,15 @@ Through this work, we saw how the federal rulemaking system is supposed to opera
 
 When we left the government, we didn’t leave our mission behind.
 
-We are seeing powerful efforts underway to shrink public participation, rush harmful rules through, and bury ordinary people under technical language and opaque procedures. When the public is locked out, rights are quietly weakened and accountability disappears.
+We are seeing powerful efforts underway to shrink public participation, rush harmful rules through, and bury ordinary people under technical language and opaque procedures. When the public is locked out, our rights are quietly weakened and accountability disappears.
 
 Public Powered Policy exists to reverse that trend.
 
 ## What we do
 
-We use our insider experience to spotlight attempts to undermine public protections, and we translate the rulemaking system into clear, practical tools that make it possible for anyone — not just lawyers and lobbyists — to participate.
+We use our insider experience to spotlight attempts to undermine public protections, and we translate the policymaking system into clear, practical tools that make it possible for anyone — not just lawyers and lobbyists — to participate.
 
-Because your voice belongs in the rules that govern your life. And when the public shows up, the system works better for everyone.
+Because your voice belongs in the policies that govern your life. And when the public shows up, the system works better for everyone.
 
 ## About us
 

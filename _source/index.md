@@ -18,7 +18,7 @@ A healthy democracy depends on public participation. But too often, the people m
 
 That’s why Public Powered Policy exists.
 
-We translate federal policy-making (aka rulemaking) into clear, practical tools that help you show up, speak out, and protect your rights — no law degree required.
+We translate federal policymaking (aka rulemaking) into clear, practical tools that help you show up, speak out, and protect your rights — no law degree required.
 
 **Your voice is more important than ever.**
 Learn how to make a public comment in minutes and help shape the policies that shape your life.
