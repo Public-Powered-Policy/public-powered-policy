@@ -3,6 +3,7 @@
 
 {% include "head.html" %}
 <body class="grid">
+  <a class="skip-link" href="#main-content"> Skip to main content </a>
   <header id="header" class="grid">
     <nav class="flex no-wrap justify-between align-items-center">
       <a class="font-size-xl font-size-lg@md font-weight-xxl uppercase line-height-flush undecorated button --simple --primary pt-0 pb-0 pb-xs@md" href="{{ '/' | url }}">
@@ -56,7 +57,7 @@
       </div>
     </nav>
   </header>
-  <main class="grid">
+  <main id="main-content" class="grid" tabindex="-1">
     <h1 class="hero">{{ title }}</h1>
     <section id="docs" class="docs-layout">
       {% if page.inputPath != "./_source/index.md" %}

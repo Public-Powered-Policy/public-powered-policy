@@ -147,7 +147,39 @@
 	}
 }
 
-/* "Accordions" */
+/* Skip link */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.skip-link:focus {
+  position: static; /* <-- puts it back into normal flow */
+  display: block;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  clip: auto;
+  overflow: visible;
+  white-space: normal;
+
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-weight: var(--font-weight-sm);
+  z-index: var(--z-3);
+}
+
+#main-content:focus {
+  outline: none;
+}
+
+/* Accordions */
 
 .accordion-panel {
   margin-block: 1rem;
