@@ -6,7 +6,7 @@ permalink: /guidance/
 ---
 ## How to submit your first comment
 
-So you want to comment on a federal policy—also called a rule. Maybe you heard about it on the news, from a friend, on social media, or on a podcast. The rule affects your life or the world around you — and you have something to say.
+So you want to comment on a rule—also called a federal policy. Maybe you heard about it on the news, from a friend, on social media, or on a podcast. The rule affects your life or the world around you — and you have something to say.
 
 That’s exactly how this is supposed to work. Welcome. Anyone can comment, and your voice truly matters.
 
