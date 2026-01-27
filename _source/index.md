@@ -1,5 +1,5 @@
 ---
-title: Your voice matters
+title: Your voice matters.
 description: Your voice is more important than ever. Find out how you can use it to help make a difference.
 layout: home.html
 eleventyNavigation:
