@@ -19,29 +19,28 @@ We served together in the Disability Rights Section — the office responsible f
 
 We didn’t just study federal rulemaking (aka policymaking). We lived inside it.
 
-At DOJ, we were responsible for developing and implementing major civil rights rules that affect millions of people’s daily lives, including:
+At DOJ, we were responsible for developing major civil rights rules that affect millions of people’s daily lives, including:
 
 - A rule requiring state and local government websites to be accessible, so people with disabilities can use the internet to vote, apply to college, follow civic events, and stay informed about what’s happening in their children’s schools.
 - A rule requiring medical diagnostic equipment to be accessible, covering exam tables, weight scales, mammography machines, and more — ensuring that people with disabilities can receive basic medical care, including being weighed at the doctor’s office.
-- The award-winning redesign of ADA.gov, transforming it into a practical, plain-language resource used by people with disabilities, businesses, and governments to understand their rights and responsibilities in everyday situations.
 
-You can find these rules and related resources at [ADA.gov](https://www.ada.gov/).
+We also transformed [ADA.gov](https://www.ada.gov/) into a practical, plain-language resource so that people with disabilities, businesses, and governments could understand their rights and responsibilities.
 
-Through this work, we saw how the federal rulemaking system is supposed to operate — and how often it doesn’t. Too frequently, large corporations and industry groups dominate the process, pushing agencies to write rules that serve them, even when those rules fail the public.
+Through this work, we saw how federal policies _should_ be made — with your input. Too frequently, large corporations and industry groups dominate the process, pushing agencies to write rules that serve them, even when those rules fail the public.
 
 ## Why now?
 
 When we left the government, we didn’t leave our mission behind.
 
-We are seeing powerful efforts underway to shrink public participation, rush harmful rules through, and bury ordinary people under technical language and opaque procedures. When the public is locked out, our rights are quietly weakened and accountability disappears.
+We are seeing powerful efforts underway to shrink public participation, rush harmful rules through, and bury ordinary people under technical language and opaque procedures. When the public is locked out, our rights are weakened and accountability disappears.
 
-Public Powered Policy exists to reverse that trend.
+Public Powered Policy wants to reverse that trend.
 
 ## What we do
 
-We use our insider experience to spotlight attempts to undermine public protections, and we translate the policymaking system into clear, practical tools that make it possible for anyone — not just lawyers and lobbyists — to participate.
+We use our insider experience to spotlight attempts to undermine public protections, we explain federal policymaking (aka rulemaking), and we highlight why it matters to you. We also provide you with the practical tools you need to participate.
 
-Because your voice belongs in the policies that govern your life. And when the public shows up, the system works better for everyone.
+Your voice belongs in the policies that govern your life. And when the public shows up, the system works better for everyone.
 
 ## About us
 
@@ -51,7 +50,7 @@ Because your voice belongs in the policies that govern your life. And when the p
   <div class="name-line">
     <span class="name-text font-size-lg font-weight-xl">Rebecca B. Bond</span>
   </div>
-  <p class="mt-1 font-size-sm">Civil Rights Attorney</p>
+  <p class="mt-1 font-size-sm">Executive Director</p>
 </div>
 
 Rebecca B. Bond is a civil rights attorney who spent 25 years at the U.S. Department of Justice working to protect and expand the rights of people with disabilities and other marginalized communities.
@@ -65,11 +64,11 @@ Earlier in her career, she brought Fair Housing Act cases as a Trial Attorney an
 Rebecca is a graduate of Harvard Law School and Yale University.
 
 <div class="bio-card">
-  {% image "cameron.jpg", "Headshot of Cameron Lynch", "bio-img radius-xl h-auto mx-auto" %}
+  {% image "cameron.webp", "Headshot of Cameron Lynch", "bio-img radius-xl h-auto mx-auto" %}
   <div class="name-line">
     <span class="name-text font-size-lg font-weight-xl">Cameron Lynch</span>
   </div>
-  <p class="mt-1 font-size-sm">Disability Rights Advocate</p>
+  <p class="mt-1 font-size-sm">Public Policy Liaison</p>
 </div>
 
 Cameron Lynch is a disability rights advocate who works to ensure equitable of treatment of disabled people through policy advocacy and intersectional engagement. 
@@ -84,7 +83,7 @@ Lynch graduated from the College of William and Mary, where she studied Sociolog
   <div class="name-line">
     <span class="name-text font-size-lg font-weight-xl">Kristin Stitcher</span>
   </div>
-  <p class="mt-1 font-size-sm">Civil Rights and Regulatory Attorney</p>
+  <p class="mt-1 font-size-sm">Director of Policy and Programs</p>
 </div>
 
 Kristin worked for the Department of Justice, Civil Rights Division, Disability Rights Section for over eight years in a few different roles, including as a Deputy Chief. Kristin’s work was aimed at protecting and advancing the rights of people with disabilities. She was also particularly focused on the intersection of law, technology, and accessibility. 
