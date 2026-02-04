@@ -46,6 +46,7 @@
   mask-size: 0% 100%;
   mask-repeat: no-repeat;
   animation: brush-reveal .75s ease-out forwards;
+  will-change: width;
 }
 
 @keyframes brush-reveal {
